@@ -100,7 +100,7 @@ const Footer = () => {
           </li>
         </div>
       </div>
-      <hr />
+      <hr className="w-11/12 mx-auto" />
       <div className="py-8">
         <p className="text-white text-center">
           © 2025 CS — Ticket System. All rights reserved.
