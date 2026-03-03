@@ -11,7 +11,9 @@ const TaskStatus = () => {
             Login Issues - Can't Access Account
           </h3>
           <div className="grid">
-            <button className="btn bg-[#02A53B] py-2 px-4">Complete</button>
+            <button className="btn bg-[#02A53B] text-white py-2 px-4">
+              Complete
+            </button>
           </div>
         </div>
       </div>

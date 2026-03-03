@@ -28,9 +28,7 @@ const Footer = () => {
             <a href="">About Us</a>
           </li>
           <li>
-            <a href="" p>
-              Our Mission
-            </a>
+            <a href="">Our Mission</a>
           </li>
           <li>
             <a href="">Contact Saled</a>

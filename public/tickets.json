@@ -13,7 +13,7 @@
     "customerName": "Michael Chen",
     "title": "Invoice Discrepancy",
     "priority": "Medium",
-    "status": "In-Progress",
+    "status": "Open",
     "createdAt": "2026-03-03",
     "description": "Customer was billed twice for the monthly Pro subscription."
   },
@@ -31,7 +31,7 @@
     "customerName": "David Smith",
     "title": "API Connection Timeout",
     "priority": "High",
-    "status": "In-Progress",
+    "status": "Open",
     "createdAt": "2026-03-03",
     "description": "Integration with Salesforce is returning a 504 Gateway Timeout error."
   },
@@ -49,7 +49,7 @@
     "customerName": "Tom Baker",
     "title": "Password Reset Link",
     "priority": "Medium",
-    "status": "In-Progress",
+    "status": "Open",
     "createdAt": "2026-03-03",
     "description": "User reports they are not receiving the automated reset email."
   },
@@ -76,7 +76,7 @@
     "customerName": "Jessica Alva",
     "title": "Bulk Upload Failure",
     "priority": "High",
-    "status": "In-Progress",
+    "status": "Open",
     "createdAt": "2026-03-03",
     "description": "System crashes when trying to upload more than 500 contacts."
   },
@@ -94,7 +94,7 @@
     "customerName": "Sam Wilson",
     "title": "Broken Link in Docs",
     "priority": "Low",
-    "status": "In-Progress",
+    "status": "Open",
     "createdAt": "2026-03-03",
     "description": "The Getting Started guide has a 404 link on page 3."
   },
@@ -121,7 +121,7 @@
     "customerName": "Fatima Zahra",
     "title": "Mobile App Crash",
     "priority": "High",
-    "status": "In-Progress",
+    "status": "Open",
     "createdAt": "2026-03-03",
     "description": "App closes immediately after the splash screen on Android 14."
   },
