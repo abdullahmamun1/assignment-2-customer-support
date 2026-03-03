@@ -12,7 +12,6 @@ const fetchTickets = async () => {
 const ticketsPromise = fetchTickets();
 
 function App() {
-  const [status, setStatus] = useState("Open");
   const [tasks, setTasks] = useState([]);
   const [resolved, setResolved] = useState([]);
 
@@ -24,8 +23,6 @@ function App() {
         fallback={<span className="loading loading-dots loading-xl"></span>}
       >
         <StatusDashboard
-          status={status}
-          setStatus={setStatus}
           tasks={tasks}
           setTasks={setTasks}
           resolved={resolved}

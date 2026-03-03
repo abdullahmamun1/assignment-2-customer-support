@@ -1,23 +1,17 @@
-import TicketCard from "../ticketCard/ticketCard";
+import TicketCard from "../TicketCard/TicketCard";
 
-const CustomerTickets = ({
-  status,
-  setStatus,
-  setTasks,
-  tasks,
-  ticketsData,
-}) => {
+const CustomerTickets = ({ tickets, setTickets, setTasks, tasks }) => {
   return (
     <div className="mb-10">
       <h1 className="text-gray-500 text-3xl font-semibold mb-4">
         Customer Tickets
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        {ticketsData.map((ticket) => (
+        {tickets.map((ticket) => (
           <TicketCard
             key={ticket.id}
-            status={status}
-            setStatus={setStatus}
+            tickets={tickets}
+            setTickets={setTickets}
             setTasks={setTasks}
             tasks={tasks}
             ticket={ticket}
