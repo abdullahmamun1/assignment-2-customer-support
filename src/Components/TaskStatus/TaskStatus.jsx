@@ -1,5 +1,8 @@
+import { toast } from "react-toastify";
+
 const TaskStatus = ({ tasks, setTasks, setTickets, setResolved }) => {
   const handleCompleted = (task) => {
+    toast("Hurray!!! Task Completed!!");
     setResolved((prev) => [...prev, task]);
     setTasks((prev) => prev.filter((t) => t.id !== task.id));
     setTickets((prev) => prev.filter((t) => t.id !== task.id));

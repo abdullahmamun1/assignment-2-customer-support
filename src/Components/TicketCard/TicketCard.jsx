@@ -1,9 +1,11 @@
 import { faCalendar, faCircle } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
+import { toast } from "react-toastify";
 
 const TicketCard = ({ ticket, setTickets, setTasks }) => {
   const handleTicket = (ticket) => {
+    toast("Task Added!!");
     const updatedTicket = { ...ticket, status: "In-Progress" };
     setTasks((prev) => [...prev, updatedTicket]);
     setTickets((prev) =>

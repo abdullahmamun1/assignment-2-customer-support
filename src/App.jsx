@@ -4,6 +4,7 @@ import Banner from "./Components/Banner/Banner";
 import Footer from "./Components/Footer/Footer";
 import Navbar from "./Components/Navbar/Navbar";
 import StatusDashboard from "./Components/StatusDashboard/StatusDashboard";
+import { ToastContainer } from "react-toastify";
 
 const fetchTickets = async () => {
   const res = await fetch("/tickets.json");
@@ -30,6 +31,7 @@ function App() {
           ticketsPromise={ticketsPromise}
         ></StatusDashboard>
       </Suspense>
+      <ToastContainer />
 
       <Footer></Footer>
     </div>
