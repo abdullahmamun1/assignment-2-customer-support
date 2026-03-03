@@ -1,5 +1,3 @@
-import React from "react";
-
 const ResolvedTask = ({ resolved }) => {
   return (
     <div className="mb-6">

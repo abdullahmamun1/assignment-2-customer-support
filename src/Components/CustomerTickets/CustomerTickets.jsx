@@ -1,12 +1,6 @@
 import TicketCard from "../TicketCard/TicketCard";
 
-const CustomerTickets = ({
-  tickets,
-  setTickets,
-  setTasks,
-  tasks,
-  setProgressCount,
-}) => {
+const CustomerTickets = ({ tickets, setTickets, setTasks }) => {
   return (
     <div className="mb-10">
       <h1 className="text-gray-500 text-3xl font-semibold mb-4">
@@ -16,12 +10,9 @@ const CustomerTickets = ({
         {tickets.map((ticket) => (
           <TicketCard
             key={ticket.id}
-            tickets={tickets}
             setTickets={setTickets}
             setTasks={setTasks}
-            tasks={tasks}
             ticket={ticket}
-            setProgressCount={setProgressCount}
           ></TicketCard>
         ))}
       </div>

@@ -1,4 +1,4 @@
-import React, { use, useState } from "react";
+import { use, useState } from "react";
 import CustomerTickets from "../CustomerTickets/CustomerTickets";
 import TaskStatus from "../TaskStatus/TaskStatus";
 import ResolvedTask from "../ResolvedTask/ResolvedTask";
@@ -8,7 +8,6 @@ const StatusDashboard = ({
   setTasks,
   resolved,
   setResolved,
-  setProgressCount,
   ticketsPromise,
 }) => {
   const ticketsData = use(ticketsPromise);
@@ -20,15 +19,12 @@ const StatusDashboard = ({
           tickets={tickets}
           setTickets={setTickets}
           setTasks={setTasks}
-          tasks={tasks}
-          setProgressCount={setProgressCount}
         ></CustomerTickets>
       </div>
       <div className="order-1 md:order-2 col-span-1">
         <TaskStatus
           tasks={tasks}
           setTasks={setTasks}
-          resolved={resolved}
           setResolved={setResolved}
           setTickets={setTickets}
         ></TaskStatus>
