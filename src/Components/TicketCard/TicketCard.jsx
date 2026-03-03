@@ -2,14 +2,14 @@ import { faCalendar, faCircle } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 
-const TicketCard = ({ tasks, setTickets, setTasks, ticket }) => {
+const TicketCard = ({ setTickets, setTasks, ticket, setProgressCount }) => {
   const handleTicket = (ticket) => {
     const updatedTicket = { ...ticket, status: "In-Progress" };
     setTasks((prev) => [...prev, updatedTicket]);
     setTickets((prev) =>
       prev.map((t) => (t.id === ticket.id ? updatedTicket : t)),
     );
-    console.log(tasks);
+    setProgressCount((prev) => prev + 1);
   };
   return (
     <button onClick={() => handleTicket(ticket)} className="cursor-pointer">

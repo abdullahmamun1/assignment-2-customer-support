@@ -8,6 +8,7 @@ const StatusDashboard = ({
   setTasks,
   resolved,
   setResolved,
+  setProgressCount,
   ticketsPromise,
 }) => {
   const ticketsData = use(ticketsPromise);
@@ -20,6 +21,7 @@ const StatusDashboard = ({
           setTickets={setTickets}
           setTasks={setTasks}
           tasks={tasks}
+          setProgressCount={setProgressCount}
         ></CustomerTickets>
       </div>
       <div className="order-1 md:order-2 col-span-1">

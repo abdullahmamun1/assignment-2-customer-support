@@ -18,7 +18,7 @@ function App() {
   return (
     <div className="root">
       <Navbar></Navbar>
-      <Banner></Banner>
+      <Banner tasks={tasks} resolved={resolved}></Banner>
       <Suspense
         fallback={<span className="loading loading-dots loading-xl"></span>}
       >
