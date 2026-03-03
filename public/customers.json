@@ -1,0 +1,137 @@
+[
+  {
+    "id": 101,
+    "customerName": "Sarah Jenkins",
+    "title": "Login Authentication Error",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-03-03",
+    "description": "User cannot bypass the 2FA screen even with the correct code."
+  },
+  {
+    "id": 102,
+    "customerName": "Michael Chen",
+    "title": "Invoice Discrepancy",
+    "priority": "Medium",
+    "status": "In-Progress",
+    "createdAt": "2026-03-03",
+    "description": "Customer was billed twice for the monthly Pro subscription."
+  },
+  {
+    "id": 103,
+    "customerName": "Elena Rodriguez",
+    "title": "Feature Request: Dark Mode",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2026-03-03",
+    "description": "Customer is asking if there is a native dark mode for the mobile app."
+  },
+  {
+    "id": 104,
+    "customerName": "David Smith",
+    "title": "API Connection Timeout",
+    "priority": "High",
+    "status": "In-Progress",
+    "createdAt": "2026-03-03",
+    "description": "Integration with Salesforce is returning a 504 Gateway Timeout error."
+  },
+  {
+    "id": 105,
+    "customerName": "Priya Kapoor",
+    "title": "Missing Data Export",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-03-03",
+    "description": "The CSV export for Q1 reports is generating an empty file."
+  },
+  {
+    "id": 106,
+    "customerName": "Tom Baker",
+    "title": "Password Reset Link",
+    "priority": "Medium",
+    "status": "In-Progress",
+    "createdAt": "2026-03-03",
+    "description": "User reports they are not receiving the automated reset email."
+  },
+  {
+    "id": 107,
+    "customerName": "Lisa Wong",
+    "title": "UI Scaling Issues",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2026-03-03",
+    "description": "Text is overlapping on 13-inch MacBook screens using Chrome."
+  },
+  {
+    "id": 108,
+    "customerName": "Marcus Thorne",
+    "title": "Account Cancellation",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-03-03",
+    "description": "Customer wants to close their account and request a data wipe."
+  },
+  {
+    "id": 109,
+    "customerName": "Jessica Alva",
+    "title": "Bulk Upload Failure",
+    "priority": "High",
+    "status": "In-Progress",
+    "createdAt": "2026-03-03",
+    "description": "System crashes when trying to upload more than 500 contacts."
+  },
+  {
+    "id": 110,
+    "customerName": "Kevin Hart",
+    "title": "Upgrade Inquiry",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2026-03-03",
+    "description": "Asking about volume discounts for a team of 50+ users."
+  },
+  {
+    "id": 111,
+    "customerName": "Sam Wilson",
+    "title": "Broken Link in Docs",
+    "priority": "Low",
+    "status": "In-Progress",
+    "createdAt": "2026-03-03",
+    "description": "The Getting Started guide has a 404 link on page 3."
+  },
+  {
+    "id": 112,
+    "customerName": "Chloe Grace",
+    "title": "Permission Error",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-03-03",
+    "description": "Admin user cannot see the User Management tab in settings."
+  },
+  {
+    "id": 113,
+    "customerName": "Brian O'Connor",
+    "title": "Slow Dashboard Load",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-03-03",
+    "description": "The main dashboard takes over 10 seconds to render data."
+  },
+  {
+    "id": 114,
+    "customerName": "Fatima Zahra",
+    "title": "Mobile App Crash",
+    "priority": "High",
+    "status": "In-Progress",
+    "createdAt": "2026-03-03",
+    "description": "App closes immediately after the splash screen on Android 14."
+  },
+  {
+    "id": 115,
+    "customerName": "Julian Scott",
+    "title": "Update Billing Info",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2026-03-03",
+    "description": "Customer needs to update their credit card on file."
+  }
+]
