@@ -5,11 +5,11 @@ import ResolvedTask from "../ResolvedTask/ResolvedTask";
 
 const StatusDashboard = () => {
   return (
-    <div className="grid grid-cols-4 gap-8 max-w-[1200px] mx-auto">
-      <div className="col-span-3">
+    <div className="grid grid-cols-1 md:grid-cols-4 gap-8 max-w-11/12 mx-auto min-h-screen">
+      <div className="order-2 md:order-1 col-span-3">
         <CustomerTickets></CustomerTickets>
       </div>
-      <div className="col-span-1">
+      <div className="order-1 md:order-2 col-span-1">
         <TaskStatus></TaskStatus>
         <ResolvedTask></ResolvedTask>
       </div>
