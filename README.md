@@ -1,16 +1,19 @@
-# React + Vite
+#### Q-1: What is JSX, and why is it used?
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Ans:** JSX is a javascript syntax extension, which allows us to write HTML like code directly in javascript code. It is used to describe the UI.
 
-Currently, two official plugins are available:
+#### Q-2: What is the difference between State and Props?
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Ans:** States are managed internally, they are used for changing any data dynamically. Props are used to pass something from parent to child component. State is mutable, props are immutable.
 
-## React Compiler
+#### Q-3: What is the useState hook, and how does it work?
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**Ans:** The useState hook is a function which is used to add state to functional components. it enables component to remember data while re-rendering and update th UI when the data changes.
 
-## Expanding the ESLint configuration
+#### Q-4: How can you share state between components in React?
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Ans:** Firstly, using props state can be passed from parent to child. Secondly, we can use lifting state up.
+
+#### Q-5: How is event handling done in React?
+
+**Ans:** By declaring event handlers like onClick, onChange, onSubmit etc. and passing any function reference as arguments.
