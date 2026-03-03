@@ -23,7 +23,15 @@ function App() {
       <Suspense
         fallback={<span className="loading loading-dots loading-xl"></span>}
       >
-        <StatusDashboard ticketsPromise={ticketsPromise}></StatusDashboard>
+        <StatusDashboard
+          status={status}
+          setStatus={setStatus}
+          tasks={tasks}
+          setTasks={setTasks}
+          resolved={resolved}
+          setResolved={setResolved}
+          ticketsPromise={ticketsPromise}
+        ></StatusDashboard>
       </Suspense>
 
       <Footer></Footer>

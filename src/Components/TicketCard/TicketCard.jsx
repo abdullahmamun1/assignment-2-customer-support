@@ -2,9 +2,18 @@ import { faCalendar, faCircle } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 
-const TicketCard = ({ ticket }) => {
+const TicketCard = ({ status, setStatus, tasks, setTasks, ticket }) => {
+  const handleTicket = (ticket) => {
+    if (ticket.status === "Open") {
+      setStatus("In-Progress");
+
+      ticket.status = status;
+      setTasks([...tasks, ticket]);
+    }
+    console.log(tasks);
+  };
   return (
-    <button className="cursor-pointer">
+    <button onClick={() => handleTicket(ticket)} className="cursor-pointer">
       <div className="bg-[#FFFFFF] shadow-lg p-4 ">
         <div className="flex justify-between">
           <h3 className="text-lg font-semibold">{ticket.title}</h3>
