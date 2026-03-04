@@ -16,10 +16,16 @@ const Footer = () => {
             CS — Ticket System
           </h2>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
+            A Customer Support Ticket Tracking App is a centralized platform
+            designed to capture, organize, and resolve customer inquiries with
+            efficiency and precision. By assigning unique IDs to every request,
+            it ensures seamless communication, clear accountability, and
+            real-time status visibility from start to finish. This streamlined
+            approach eliminates manual chaos, allowing teams to prioritize
+            urgent issues and maintain a high standard of service. It is the
+            essential tool for turning customer challenges into structured,
+            data-driven solutions that foster long-term loyalty and professional
+            growth.
           </p>
         </div>
         <div className="col-span-1 md:col-span-2 list-none">

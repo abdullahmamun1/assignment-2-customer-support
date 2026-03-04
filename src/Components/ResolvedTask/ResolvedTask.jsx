@@ -9,8 +9,8 @@ const ResolvedTask = ({ resolved }) => {
       ) : (
         resolved.map((task) => (
           <div>
-            <div className="bg-[#E0E7FF] shadow-lg p-3 mb-5">
-              <h3 className="text-lg font-semibold">{task.title}</h3>
+            <div className="bg-[#E0E7FF] shadow-lg p-3 mb-5 rounded-lg">
+              <h3 className="text-lg text-black font-semibold">{task.title}</h3>
             </div>
           </div>
         ))

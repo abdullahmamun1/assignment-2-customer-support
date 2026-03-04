@@ -10,7 +10,7 @@ const Navbar = () => {
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-5 w-5"
+              className="h-5 w-5 text-black"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -48,7 +48,9 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <a className="font-bold text-sm md:text-3xl">CS — Ticket System</a>
+        <a className="font-bold text-black text-sm md:text-3xl">
+          CS — Ticket System
+        </a>
       </div>
       <div className="navbar-end">
         <ul className="menu menu-horizontal hidden lg:flex px-1">

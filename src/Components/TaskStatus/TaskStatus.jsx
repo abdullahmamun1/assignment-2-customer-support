@@ -14,17 +14,17 @@ const TaskStatus = ({ tasks, setTasks, setTickets, setResolved }) => {
         <p className="text-gray-500">Select a ticket to add to Task Status</p>
       ) : (
         tasks.map((task) => (
-          <div className="">
-            <div className="bg-[#FFFFFF] shadow-lg p-4 mb-5">
-              <h3 className="text-lg font-semibold mb-2">{task.title}</h3>
-              <div className="grid">
-                <button
-                  onClick={() => handleCompleted(task)}
-                  className="btn bg-[#02A53B] text-white py-2 px-4"
-                >
-                  Complete
-                </button>
-              </div>
+          <div className="bg-[#FFFFFF] shadow-lg p-4 mb-5 rounded-lg">
+            <h3 className="text-lg text-black font-semibold mb-2">
+              {task.title}
+            </h3>
+            <div className="grid">
+              <button
+                onClick={() => handleCompleted(task)}
+                className="btn bg-[#02A53B] text-white py-2 px-4"
+              >
+                Complete
+              </button>
             </div>
           </div>
         ))
